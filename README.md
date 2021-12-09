@@ -15,21 +15,30 @@ I use the Windows version of [ArcWelderLib](https://github.com/FormerLurker/ArcW
 
 #### Start G-code
 Obviously, change these values as needed.  
-```gcode
+```
 ; Polymaker Polylite PLA
 SET_PRESSURE_ADVANCE ADVANCE=0.0275
 ```
 
 ### Printer settings
 
+Within the `General` tab, make sure to turn on `Use relative E distances`. The `START_PRINT` and `PRIME_LINE` macro are set up to be relative instead of absolute.  
+  
 #### Start G-code
-```gcode
+```
 START_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP={first_layer_temperature[initial_extruder]+extruder_temperature_offset[initial_extruder]}
 ```
 
 #### End G-code
-```gcode
+```
 END_PRINT
+```
+
+#### Before layer change G-code
+```
+;BEFORE_LAYER_CHANGE
+G92 E0
+;{layer_z}
 ```
 
 ## MODS
