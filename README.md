@@ -46,12 +46,13 @@ G92 E0
 
 * BLTouch
 * Direct Drive Conversion
-    * Dragonfly BMS
-    * Orbiter v1.5 Extruder
-    * Custom Voron Afterburner
-* Copper plated nozzle
-* 50W heater cartridge
-* 10HT500T based thermostat (Max 500°C)
+    * Dragonfly BMS ([Phætus](https://www.phaetus.com/dragonflybms/))
+    * Orbiter v1.5 Extruder ([Thingiverse](https://www.thingiverse.com/thing:4725897) | [AliExpress](https://www.aliexpress.com/item/1005002071694186.html)) __Make sure to get the LDO stepper!__
+    * Custom Voron Afterburner _(Repo will be added once the STEP files are clean)_
+* Copper plated nozzle ([Phætus](https://www.phaetus.com/plated-copper-nozzle/) | [Duckleberry (Netherlands)](https://www.duckleberry.nl/accessoires/nozzles/koperen-nozzle-voor-e3d-v6-0-4mm/))
+* 50W heater cartridge ([AliExpress](https://www.aliexpress.com/item/4000550325460.html))
+* 10HT500T based thermostat (Max 500°C) ([AliExpress](https://www.aliexpress.com/item/4000591370691.html))
+* Smooth PEI Flex Plate ([AliExpress](https://www.aliexpress.com/item/1005002953320470.html))
 * Yellow dot squash ball feet
 
 ### Mods in progress
@@ -60,7 +61,7 @@ G92 E0
 
 ### Planned Mods
 
-* Belt conversion (Lead Screw Delete)
+* Belt conversion (Lead Screw Delete) ([Thingiverse (Original)](https://www.thingiverse.com/thing:4243512) | [Thingiverse (Beefy Upgrade)](https://www.thingiverse.com/thing:4713139))
 * Upgraded mainboard
 * New wire harness
 * Reprint all printed parts in ABS or ASA
@@ -68,5 +69,5 @@ G92 E0
 
 ### Retired Mods
 
-* Voron M4
-    * Voron M4 Direct Drive conversion
+* Voron M4 ([VoronDesign](https://vorondesign.com/voron_m4))
+    * Voron M4 Direct Drive conversion ([Thingiverse](https://www.thingiverse.com/thing:4901100))
